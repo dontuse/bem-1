@@ -55,7 +55,7 @@ MAKE.decl('BundleNode', {
 
     },
 
-    getLevels: function(tech) {
+    /*getLevels: function(tech) {
 
         if (PATH.basename(this.level.dir) === 'benchmark.bundles') {
             return ['../bem-bl/blocks-common',
@@ -67,6 +67,6 @@ MAKE.decl('BundleNode', {
 
         return this.__base(tech);
 
-    }
+    }*/
 
 });
